@@ -1,2 +1,2 @@
-# ffmpeg-kit-ios-full-gpl
+# ffmpeg-kit-ios-full
 
