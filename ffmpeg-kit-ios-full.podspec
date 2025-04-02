@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
   s.libraries    = ["z", "bz2", "c++", "iconv"]
 
   s.source = {
-    :git => "https://github.com/juliendevleeschauwer/ffmpeg-kit-ios-full.git",
-    :tag => "v6.0"
+    :http => "https://github.com/juliendevleeschauwer/ffmpeg-kit-ios-full/archive/refs/tags/v6.0.zip"  
   }
 
   s.ios.frameworks = ["AudioToolbox", "AVFoundation", "CoreMedia", "VideoToolbox"]
