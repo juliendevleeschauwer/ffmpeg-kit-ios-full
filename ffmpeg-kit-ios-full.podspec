@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/arthenica/ffmpeg-kit"
   s.license      = {
     :type => "LGPL-3.0",
-    :file => "LICENSE.txt"
+    :file => "LICENSE"
   }
   s.authors      = {
     "ARTHENICA" => "open-source@arthenica.com"
