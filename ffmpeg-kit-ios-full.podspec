@@ -23,13 +23,13 @@ Pod::Spec.new do |s|
   s.ios.frameworks = ["AudioToolbox", "AVFoundation", "CoreMedia", "VideoToolbox"]
 
   s.ios.vendored_frameworks = [
-    "ffmpegkit.xcframework",
-    "libavcodec.xcframework",
-    "libavdevice.xcframework",
-    "libavfilter.xcframework",
-    "libavformat.xcframework",
-    "libavutil.xcframework",
-    "libswresample.xcframework",
-    "libswscale.xcframework"
+    "vendored_frameworks/ffmpegkit.xcframework",
+    "vendored_frameworks/libavcodec.xcframework",
+    "vendored_frameworks/libavdevice.xcframework",
+    "vendored_frameworks/libavfilter.xcframework",
+    "vendored_frameworks/libavformat.xcframework",
+    "vendored_frameworks/libavutil.xcframework",
+    "vendored_frameworks/libswresample.xcframework",
+    "vendored_frameworks/libswscale.xcframework"
   ]
 end
