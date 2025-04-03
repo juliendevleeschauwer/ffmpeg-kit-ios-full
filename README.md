@@ -1,2 +1,0 @@
-# ffmpeg-kit-ios-full
-
